@@ -6,7 +6,7 @@
   "description": "Awesome socket.io plugin for hapi",
   "homepage": "https://github.com/sibartlett/hapi-io",
   "repository": "git://github.com/sibartlett/hapi-io",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "lab --verbose --lint --coverage"
   },
@@ -14,7 +14,6 @@
     "node": ">=8.0.0"
   },
   "dependencies": {
-    "async": "^2.6.1",
     "socket.io": "^2.1.1"
   },
   "peerDependencies": {
