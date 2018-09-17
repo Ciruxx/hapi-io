@@ -6,7 +6,7 @@
   "description": "Awesome socket.io plugin for hapi",
   "homepage": "https://github.com/sibartlett/hapi-io",
   "repository": "git://github.com/sibartlett/hapi-io",
-  "main": "index.js",
+  "main": "./bin/run.js",
   "scripts": {
     "test": "lab --verbose --lint --coverage"
   },
