@@ -1,6 +1,6 @@
 'use strict';
 
-const Hoek = require('hoek');
+const Hoek = require('@hapi/hoek');
 const SocketIO = require('socket.io');
 const Auth = require('./lib/auth');
 const Routes = require('./lib/routes');
